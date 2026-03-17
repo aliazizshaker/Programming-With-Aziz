@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali Aziz | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Bebas+Neue&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <div class="global-bg">
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow--1"></div>
+    <div class="bg-glow bg-glow--2"></div>
+    <div class="bg-glow bg-glow--3"></div>
+  </div>
+
+  <div class="bars-animation">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-logo">AZIZ<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#project" class="nav-link">Projects</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#home" class="mob-link">Home</a></li>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#project" class="mob-link">Projects</a></li>
+      <li><a href="#services" class="mob-link">Services</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <section class="home" id="home">
+    <div class="home-info">
+      <div class="section-label">
+        <span class="label-line"></span>Welcome to my portfolio
+      </div>
+      <h1 class="home-name">Hi, I'm <br /><span>Ali Aziz</span></h1>
+      <h2 class="home-role"><span id="typed"></span></h2>
+      <p class="home-desc">
+        Welcome to my personal portfolio and YouTube channel.<br />
+        I share my journey as a Frontend Developer, Blogger, and Designer.<br />
+        Join me to explore coding tips, tutorials, and creative design ideas.
+      </p>
+      <div class="btn-group">
+        <a href="#contact" class="btn btn--primary">Hire Me</a>
+        <a href="#project" class="btn btn--outline">View Work</a>
+      </div>
+      <div class="home-socials">
+        <a href="https://github.com/aliazizshaker" class="social-icon"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/ali-aziz-532621398/" class="social-icon"><i class="bx bxl-linkedin"></i></a>
+        <a href="www.youtube.com/@Azizcodehub" class="social-icon"><i class="bx bxl-youtube"></i></a>
+        <a href="facebook.com/profile.php?id=61584958893057" class="social-icon"><i class="bx bxl-facebook"></i></a>
+      </div>
+    </div>
+    <div class="home-img-wrap">
+      <div class="img-ring-outer">
+        <div class="img-ring-inner">
+          <div class="img-box">
+            <img src="images/Logo.png" alt="Ali Aziz" />
+          </div>
+        </div>
+      </div>
+      <div class="home-badge home-badge--1">
+        <i class="bx bx-code-alt"></i>
+        <span>Frontend Dev</span>
+      </div>
+      <div class="home-badge home-badge--2">
+        <i class="bx bxs-star"></i>
+        <span>UI Designer</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="section-container">
+      <div class="sec-heading">
+        <div class="section-label">
+          <span class="label-line"></span>Who I Am
+        </div>
+        <h2 class="sec-title">ABOUT <span>ME</span></h2>
+      </div>
+      <div class="about-wrapper">
+        <div class="about-left">
+          <div class="about-img-frame">
+            <div class="about-img-inner">
+              <img src="images/about.png" alt="Ali Aziz" />
+            </div>
+            <div class="about-exp-badge">
+              <span class="aeb-num">3+</span>
+              <span class="aeb-txt">Years<br />Experience</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <h3 class="about-subtitle">A Little About Me</h3>
+          <p class="about-p">
+            My name is Ali Aziz, a passionate Frontend Developer and UI
+            Designer with deep expertise in crafting beautiful,
+            high-performance digital experiences. My foundation in design
+            sparked a love for user psychology and clean code.
+          </p>
+          <p class="about-p">
+            I specialise in creating modern, responsive websites that not only
+            look stunning but perform flawlessly across all devices. Every
+            pixel matters — every interaction counts.
+          </p>
+          <div class="about-stats">
+            <div class="abt-stat">
+              <span class="abt-stat-num">50+</span>
+              <span class="abt-stat-label">Projects Done</span>
+            </div>
+            <div class="abt-stat">
+              <span class="abt-stat-num">3+</span>
+              <span class="abt-stat-label">Years Exp.</span>
+            </div>
+            <div class="abt-stat">
+              <span class="abt-stat-num">20+</span>
+              <span class="abt-stat-label">Happy Clients</span>
+            </div>
+          </div>
+          <div class="about-skills">
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-left">
+                  <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiPjxwYXRoIGZpbGw9IiNFNjUxMDAiIGQ9Ik00MSw1SDdsMywzNGwxNCw0bDE0LTRMNDEsNUw0MSw1eiIvPjxwYXRoIGZpbGw9IiNGRjZEMDAiIGQ9Ik0yNCA4TDI0IDM5LjkgMzUuMiAzNi43IDM3LjcgOHoiLz48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMjQsMjV2LTRoOC42bC0wLjcsMTEuNUwyNCwzNS4xdi00LjJsNC4xLTEuNGwwLjMtNC41SDI0eiBNMzIuOSwxN2wwLjMtNEgyNHY0SDMyLjl6Ii8+PHBhdGggZmlsbD0iI0VFRSIgZD0iTTI0LDMwLjl2NC4ybC03LjktMi42TDE1LjcsMjdoNGwwLjIsMi41TDI0LDMwLjl6IE0xOS4xLDE3SDI0di00aC05LjFsMC43LDEySDI0di00aC00LjZMMTkuMSwxN3oiLz48L3N2Zz4="
+                    alt="HTML" />
+                  <span>HTML</span>
+                </div>
+                <span class="skill-pct">98%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar skill-bar--red"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-left">
+                  <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiPjxwYXRoIGZpbGw9IiMwMjc3QkQiIGQ9Ik00MSw1SDdsMywzNGwxNCw0bDE0LTRMNDEsNUw0MSw1eiIvPjxwYXRoIGZpbGw9IiMwMzlCRTUiIGQ9Ik0yNCA4TDI0IDM5LjkgMzUuMiAzNi43IDM3LjcgOHoiLz48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMzMuMSAxM0wyNCAxMyAyNCAxNyAyOC45IDE3IDI4LjYgMjEgMjQgMjEgMjQgMjUgMjguNCAyNSAyOC4xIDI5LjUgMjQgMzAuOSAyNCAzNS4xIDMxLjkgMzIuNSAzMi42IDIxIDMyLjYgMjF6Ii8+PHBhdGggZmlsbD0iI0VFRSIgZD0iTTI0LDEzdjRoLTguOWwtMC4zLTRIMjR6IE0xOS40LDIxbDAuMiw0SDI0di00SDE5LjR6IE0xOS44LDI3aC00bDAuMyw1LjVsNy45LDIuNnYtNC4ybC00LjEtMS40TDE5LjgsMjd6Ii8+PC9zdmc+"
+                    alt="CSS" />
+                  <span>CSS</span>
+                </div>
+                <span class="skill-pct">95%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar skill-bar--blue"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-left">
+                  <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiPjxwYXRoIGZpbGw9IiNmZmQ2MDAiIGQ9Ik02LDQyVjZoMzZ2MzZINnoiLz48cGF0aCBmaWxsPSIjMDAwMDAxIiBkPSJNMjkuNTM4IDMyLjk0N2MuNjkyIDEuMTI0IDEuNDQ0IDIuMjAxIDMuMDM3IDIuMjAxIDEuMzM4IDAgMi4wNC0uNjY1IDIuMDQtMS41ODUgMC0xLjEwMS0uNzI2LTEuNDkyLTIuMTk4LTIuMTMzbC0uODA3LS4zNDRjLTIuMzI5LS45ODgtMy44NzgtMi4yMjYtMy44NzgtNC44NDEgMC0yLjQxIDEuODQ1LTQuMjQ0IDQuNzI4LTQuMjQ0IDIuMDUzIDAgMy41MjguNzExIDQuNTkyIDIuNTczbC0yLjUxNCAxLjYwN2MtLjU1My0uOTg4LTEuMTUxLTEuMzc3LTIuMDc4LTEuMzc3LS45NDYgMC0xLjU0NS41OTctMS41NDUgMS4zNzcgMCAuOTY0LjYgMS4zNTQgMS45ODUgMS45NTFsLjgwNy4zNDRDMzYuNDUyIDI5LjY0NSAzOCAzMC44MzkgMzggMzMuNTIzIDM4IDM2LjQxNSAzNS43MTYgMzggMzIuNjUgMzhjLTIuOTk5IDAtNC43MDItMS41MDUtNS42NS0zLjM2OEwyOS41MzggMzIuOTQ3ek0xNy45NTIgMzMuMDI5Yy41MDYuOTA2IDEuMjc1IDEuNjAzIDIuMzgxIDEuNjAzIDEuMDU4IDAgMS42NjctLjQxOCAxLjY2Ny0yLjA0M1YyMmgzLjMzM3YxMS4xMDFjMCAzLjM2Ny0xLjk1MyA0Ljg5OS00LjgwNSA0Ljg5OS0yLjU3NyAwLTQuNDM3LTEuNzQ2LTUuMTk1LTMuMzY4TDE3Ljk1MiAzMy4wMjl6Ii8+PC9zdmc+"
+                    alt="JS" />
+                  <span>JavaScript</span>
+                </div>
+                <span class="skill-pct">46%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar skill-bar--orange"></div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn btn--primary" style="
+                margin-top: 20px;
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+              ">Download CV <i class="bx bx-download"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-section" id="project">
+    <div class="section-container">
+      <div class="sec-heading sec-heading--center">
+        <div class="section-label section-label--center">
+          <span class="label-line"></span>What I've Built<span class="label-line"></span>
+        </div>
+        <h2 class="sec-title">MY <span>PROJECTS</span></h2>
+        <p class="sec-subtitle">
+          Here are some of the projects I have built using HTML, CSS and
+          JavaScript with modern UI design.
+        </p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/gmax.png" alt="G MAX" />
+            <div class="project-overlay">
+              <a href="#"><i class="bx bx-link-external"></i></a>
+              <a href="#"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>G MAX</h3>
+            <p>
+              A modern landing page inspired by glass-pro design and modern UI
+              aesthetics.
+            </p>
+            <div class="tech">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <div class="links">
+              <a href="#"><i class="bx bx-link-external"></i>Live</a>
+              <a href="#"><i class="bx bxl-github"></i>Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/moshify.png" alt="Moshify" />
+            <div class="project-overlay">
+              <a href="#"><i class="bx bx-link-external"></i></a>
+              <a href="#"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Moshify</h3>
+            <p>
+              Modern, responsive website with sleek design and seamless
+              performance.
+            </p>
+            <div class="tech">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <div class="links">
+              <a href="#"><i class="bx bx-link-external"></i>Live</a>
+              <a href="#"><i class="bx bxl-github"></i>Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/abdulaziz.png" alt="Abdul Aziz" />
+            <div class="project-overlay">
+              <a href="#"><i class="bx bx-link-external"></i></a>
+              <a href="#"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Abdul Aziz</h3>
+            <p>
+              Creative, user-friendly web solutions with modern design and
+              efficiency.
+            </p>
+            <div class="tech">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <div class="links">
+              <a href="#"><i class="bx bx-link-external"></i>Live</a>
+              <a href="#"><i class="bx bxl-github"></i>Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/mountain adventure.png" alt="Mountain Adventure" />
+            <div class="project-overlay">
+              <a href="#"><i class="bx bx-link-external"></i></a>
+              <a href="#"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Mountain Adven</h3>
+            <p>
+              Thrilling journeys, guided tours, and unforgettable outdoor
+              experiences.
+            </p>
+            <div class="tech">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <div class="links">
+              <a href="#"><i class="bx bx-link-external"></i>Live</a>
+              <a href="#"><i class="bx bxl-github"></i>Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/praroz.png" alt="PraRoz" />
+            <div class="project-overlay">
+              <a href="#"><i class="bx bx-link-external"></i></a>
+              <a href="#"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>PraRoz</h3>
+            <p>
+              Modern, responsive landing pages with sleek visuals and smooth
+              UX.
+            </p>
+            <div class="tech">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <div class="links">
+              <a href="#"><i class="bx bx-link-external"></i>Live</a>
+              <a href="#"><i class="bx bxl-github"></i>Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/cyberlogin.png" alt="Cyber Login" />
+            <div class="project-overlay">
+              <a href="#"><i class="bx bx-link-external"></i></a>
+              <a href="#"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Cyber Login</h3>
+            <p>
+              Secure, fast access to digital accounts with a stunning pro
+              design.
+            </p>
+            <div class="tech">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <div class="links">
+              <a href="#"><i class="bx bx-link-external"></i>Live</a>
+              <a href="#"><i class="bx bxl-github"></i>Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-section" id="services">
+    <div class="section-container">
+      <div class="services-header">
+        <div class="services-header-left">
+          <div class="section-label">
+            <span class="label-line"></span>What I Offer
+          </div>
+          <h2 class="sec-title">MY <span>SERVICES</span></h2>
+        </div>
+        <div class="services-header-right">
+          <p>
+            Crafting cutting-edge digital solutions that transform ideas into
+            powerful, scalable realities built for those who refuse to settle.
+          </p>
+        </div>
+      </div>
+      <div class="srv-grid">
+        <div class="srv-card">
+          <div class="srv-card-top">
+            <div class="srv-icon"><i class="bx bx-desktop"></i></div>
+            <span class="srv-num">01</span>
+          </div>
+          <h3 class="srv-title">Web Design</h3>
+          <p class="srv-desc">
+            Visually stunning, conversion-focused websites that captivate your
+            audience and elevate your brand identity to new heights.
+          </p>
+          <div class="srv-tags">
+            <span>UI/UX</span><span>Figma</span><span>Prototyping</span>
+          </div>
+          <a href="#contact" class="srv-link">Explore <i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+        <div class="srv-card">
+          <div class="srv-card-top">
+            <div class="srv-icon"><i class="bx bx-code-alt"></i></div>
+            <span class="srv-num">02</span>
+          </div>
+          <h3 class="srv-title">Development</h3>
+          <p class="srv-desc">
+            High-performance web applications engineered with modern tech
+            stacks, built to scale and crafted to last for the long run.
+          </p>
+          <div class="srv-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="#contact" class="srv-link">Explore <i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+        <div class="srv-card srv-card--featured">
+          <div class="srv-card-top">
+            <div class="srv-icon"><i class="bx bxs-palette"></i></div>
+            <span class="srv-num">03</span>
+          </div>
+          <h3 class="srv-title">Branding</h3>
+          <p class="srv-desc">
+            Strategic brand identities that resonate, differentiate, and leave
+            a powerful lasting mark on your market and audience.
+          </p>
+          <div class="srv-tags">
+            <span>Identity</span><span>Logo</span><span>Strategy</span>
+          </div>
+          <a href="#contact" class="srv-link">Explore <i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+        <div class="srv-card">
+          <div class="srv-card-top">
+            <div class="srv-icon"><i class="bx bx-trending-up"></i></div>
+            <span class="srv-num">04</span>
+          </div>
+          <h3 class="srv-title">SEO &amp; Growth</h3>
+          <p class="srv-desc">
+            Data-driven SEO strategies that drive organic traffic and position
+            your business right at the top of search results.
+          </p>
+          <div class="srv-tags">
+            <span>Analytics</span><span>Keywords</span><span>On-Page</span>
+          </div>
+          <a href="#contact" class="srv-link">Explore <i class="bx bx-right-arrow-alt"></i></a>
+        </div>
+        <div class="srv-card srv-card--wide">
+          <div class="srv-wide-left">
+            <div class="srv-card-top">
+              <div class="srv-icon"><i class="bx bx-broadcast"></i></div>
+              <span class="srv-num">05</span>
+            </div>
+            <h3 class="srv-title">Digital Marketing</h3>
+            <p class="srv-desc">
+              Full-funnel campaigns powered by data, creativity, and
+              relentless optimization to grow your brand fast.
+            </p>
+            <div class="srv-tags">
+              <span>Paid Ads</span><span>Social</span><span>Email</span>
+            </div>
+            <a href="#contact" class="srv-link">Explore <i class="bx bx-right-arrow-alt"></i></a>
+          </div>
+          <div class="srv-wide-right">
+            <div class="srv-stat">
+              <span class="srv-stat-num">300%</span><span class="srv-stat-label">Average ROI increase for clients</span>
+            </div>
+            <div class="srv-stat">
+              <span class="srv-stat-num">5M+</span><span class="srv-stat-label">Impressions generated monthly</span>
+            </div>
+            <div class="srv-stat">
+              <span class="srv-stat-num">98%</span><span class="srv-stat-label">Client retention rate
+                year-over-year</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="srv-divider">
+        <div class="srv-divider-line"></div>
+        <span class="srv-divider-text">My Process</span>
+        <div class="srv-divider-line"></div>
+      </div>
+      <div class="srv-process">
+        <div class="srv-step">
+          <span class="srv-step-num">01</span>
+          <h4 class="srv-step-title">Discovery</h4>
+          <p class="srv-step-desc">
+            Diving deep into your goals, audience, and market.
+          </p>
+        </div>
+        <div class="srv-step">
+          <span class="srv-step-num">02</span>
+          <h4 class="srv-step-title">Strategy</h4>
+          <p class="srv-step-desc">
+            A custom roadmap crafted to hit your objectives.
+          </p>
+        </div>
+        <div class="srv-step">
+          <span class="srv-step-num">03</span>
+          <h4 class="srv-step-title">Execution</h4>
+          <p class="srv-step-desc">
+            Building and launching with meticulous attention.
+          </p>
+        </div>
+        <div class="srv-step">
+          <span class="srv-step-num">04</span>
+          <h4 class="srv-step-title">Growth</h4>
+          <p class="srv-step-desc">
+            Continuous iteration and scaling your results.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="section-container">
+      <div class="sec-heading sec-heading--center">
+        <div class="section-label section-label--center">
+          <span class="label-line"></span>Get In Touch<span class="label-line"></span>
+        </div>
+        <h2 class="sec-title">CONTACT <span>ME</span></h2>
+        <p class="sec-subtitle">
+          Have a project in mind? I'd love to hear from you. Let's create
+          something extraordinary together.
+        </p>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-info-header">
+            <h3>Let's Talk</h3>
+            <p>
+              I'm open to freelance projects, collaborations, and full-time
+              opportunities. Reach out and let's build something great.
+            </p>
+          </div>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="ci-icon"><i class="bx bx-map"></i></div>
+              <div class="ci-text">
+                <span class="ci-label">Location</span><span class="ci-value">Peshawar, Pakistan</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="ci-icon"><i class="bx bx-envelope"></i></div>
+              <div class="ci-text">
+                <span class="ci-label">Email</span><span class="ci-value">aliaziz.shakir@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="ci-icon"><i class="bx bx-phone"></i></div>
+              <div class="ci-text">
+                <span class="ci-label">Phone</span><span class="ci-value">+92 306 7520158</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="ci-icon"><i class="bx bx-time"></i></div>
+              <div class="ci-text">
+                <span class="ci-label">Availability</span><span class="ci-value">Mon – Sat, 9AM – 8PM</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <span class="cs-label">Follow Me</span>
+            <div class="cs-icons">
+              <a href="https://github.com/aliazizshaker" class="cs-icon"><i class="bx bxl-github"></i></a>
+              <a href="https://www.linkedin.com/in/ali-aziz-532621398/" class="cs-icon"><i class="bx bxl-linkedin"></i></a>
+              <a href="www.youtube.com/@Azizcodehub" class="cs-icon"><i class="bx bxl-youtube"></i></a>
+              <a href="facebook.com/profile.php?id=61584958893057" class="cs-icon"><i class="bx bxl-facebook"></i></a>
+              <a href="codepen.io/Ali-Aziz-the-lessful/pens" class="cs-icon"><i class="bx bxl-codepen"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <div class="form-top-bar">
+            <span class="form-dot form-dot--r"></span>
+            <span class="form-dot form-dot--y"></span>
+            <span class="form-dot form-dot--g"></span>
+            <span class="form-bar-label">Send a Message</span>
+          </div>
+          <form class="contact-form" action="#" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Ali" required />
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Aziz" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="ali@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option>Web Design</option>
+                <option>Development</option>
+                <option>Branding</option>
+                <option>SEO &amp; Growth</option>
+                <option>Digital Marketing</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary form-submit-btn">
+              Send Message <i class="bx bx-send"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-glow"></div>
+    <div class="footer-top">
+      <div class="section-container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#home" class="footer-logo">AZIZ<span>.</span></a>
+            <p class="footer-bio">
+              Frontend Developer &amp; UI Designer crafting beautiful digital
+              experiences that leave a lasting impression on every screen.
+            </p>
+            <div class="footer-socials">
+              <a href="https://github.com/aliazizshaker" class="fs-icon"><i class="bx bxl-github"></i></a>
+              <a href="https://www.linkedin.com/in/ali-aziz-532621398/" class="fs-icon"><i class="bx bxl-linkedin"></i></a>
+              <a href="www.youtube.com/@Azizcodehub" class="fs-icon"><i class="bx bxl-youtube"></i></a>
+              <a href="facebook.com/profile.php?id=61584958893057" class="fs-icon"><i class="bx bxl-facebook"></i></a>
+              <a href="codepen.io/Ali-Aziz-the-lessful/pens" class="fs-icon"><i class="bx bxl-codepen"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-col-title">Quick Links</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#home"><i class="bx bx-chevron-right"></i>Home</a>
+              </li>
+              <li>
+                <a href="#about"><i class="bx bx-chevron-right"></i>About</a>
+              </li>
+              <li>
+                <a href="#project"><i class="bx bx-chevron-right"></i>Projects</a>
+              </li>
+              <li>
+                <a href="#services"><i class="bx bx-chevron-right"></i>Services</a>
+              </li>
+              <li>
+                <a href="#contact"><i class="bx bx-chevron-right"></i>Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-col-title">Services</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#services"><i class="bx bx-chevron-right"></i>Web Design</a>
+              </li>
+              <li>
+                <a href="#services"><i class="bx bx-chevron-right"></i>Development</a>
+              </li>
+              <li>
+                <a href="#services"><i class="bx bx-chevron-right"></i>Branding</a>
+              </li>
+              <li>
+                <a href="#services"><i class="bx bx-chevron-right"></i>SEO &amp; Growth</a>
+              </li>
+              <li>
+                <a href="#services"><i class="bx bx-chevron-right"></i>Digital Marketing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-col-title">Contact Info</h4>
+            <ul class="footer-contact-list">
+              <li><i class="bx bx-map"></i>Peshawar, Pakistan</li>
+              <li><i class="bx bx-envelope"></i>aliaziz.shakir@gmail.com</li>
+              <li><i class="bx bx-phone"></i>+92 306 7520158</li>
+            </ul>
+            <div class="footer-available">
+              <span class="avail-dot"></span>Available for new projects
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="section-container">
+        <div class="footer-bottom-inner">
+          <p>© 2025 <span>Ali Aziz</span>. All rights reserved.</p>
+          <p>
+            Designed &amp; Built with
+            <i class="bx bxs-heart" style="color: var(--red)"></i> by Ali Aziz
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="scroll-top" id="scrollTop">
+    <i class="bx bx-up-arrow-alt"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
